@@ -1,0 +1,160 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "pic1.png",
+      "title": "Чизбургер-пицца",
+      "price": 10,
+      "type": ["grill", "vegetarian"],
+      "doughTypes": [
+        {
+          "id": "_uif9sdf",
+          "type": "тонкое",
+          "isAvailable": true
+        },
+        {
+          "id": "_uif9sdfdcd",
+          "type": "традиционное",
+          "isAvailable": true
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 26,
+          "price": 2,
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 3,
+          "isAvailable": true
+        },
+        {
+          "id": 3,
+          "size": 40,
+          "price": 4,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "img": "pic2.png",
+      "title": "Сырная",
+      "price": 8,
+      "type": ["vegetarian"],
+      "doughTypes": [
+        {
+          "id": "_uif9sdf",
+          "type": "тонкое",
+          "isAvailable": true
+        },
+        {
+          "id": "_uif9sdfdcd",
+          "type": "традиционное",
+          "isAvailable": true
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 26,
+          "price": 2,
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 3,
+          "isAvailable": false
+        },
+        {
+          "id": 3,
+          "size": 40,
+          "price": 4,
+          "isAvailable": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "img": "pic3.png",
+      "title": "Креветки по-азиатски",
+      "price": 8,
+      "type": ["spicy"],
+      "doughTypes": [
+        {
+          "id": "_uif9sdf",
+          "type": "тонкое",
+          "isAvailable": false
+        },
+        {
+          "id": "_uif9sdfdcd",
+          "type": "традиционное",
+          "isAvailable": true
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 26,
+          "price": 2,
+          "isAvailable": false
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 3,
+          "isAvailable": true
+        },
+        {
+          "id": 3,
+          "size": 40,
+          "price": 4,
+          "isAvailable": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "img": "pic4.png",
+      "title": "Сырный цыпленок",
+      "price": 12,
+      "type": ["grill", "meat"],
+      "doughTypes": [
+        {
+          "id": "_uif9sdf",
+          "type": "тонкое",
+          "isAvailable": true
+        },
+        {
+          "id": "_uif9sdfdcd",
+          "type": "традиционное",
+          "isAvailable": true
+        }
+      ],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 26,
+          "price": 2,
+          "isAvailable": true
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 3,
+          "isAvailable": true
+        },
+        {
+          "id": 3,
+          "size": 40,
+          "price": 4,
+          "isAvailable": true
+        }
+      ]
+    }
+  ]
+}
